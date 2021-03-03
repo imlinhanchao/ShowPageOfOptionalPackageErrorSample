@@ -19,9 +19,9 @@ namespace OptionalPackageWithPageToShow
 
             Application.LoadComponent(this, resourceLocator, ComponentResourceLocation.Nested);
 
-            Uri resourceLocator2 = new Uri("ms-appx://ad4d8e16-9f9c-458f-ac0f-e74cb99fa10c/Assets/image.jpg");
+            Uri resourceLocatorImg = new Uri("ms-appx://ad4d8e16-9f9c-458f-ac0f-e74cb99fa10c/Assets/image.jpg");
 
-            Application.LoadComponent(this, resourceLocator2, ComponentResourceLocation.Nested);
+            Application.LoadComponent(this, resourceLocatorImg, ComponentResourceLocation.Nested);
         }
     }
 }
